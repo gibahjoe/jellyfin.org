@@ -638,6 +638,30 @@ export const Clients: Array<Client> = [
     recommended: true
   },
   {
+    id: 'phyn',
+    name: 'Phyn',
+    description: 'Multiplatform client for Jellyfin video and audio playback with Jellyseerr support. Available on iOS, iPadOS and macOS.',
+    clientType: ClientType.ThirdParty,
+    deviceTypes: [DeviceType.Mobile, DeviceType.Desktop],
+    licenseType: LicenseType.Proprietary,
+    platforms: [Platform.IOS, Platform.MacOS],
+    primaryLinks: [
+      {
+        id: 'apple-store',
+        name: 'App Store',
+        url: 'https://apple.co/46aHlqb'
+      }
+    ],
+    secondaryLinks: [
+      {
+        id: 'website',
+        name: 'Website',
+        url: 'https://phyn.app'
+      }
+    ],
+    recommended: true
+  },
+  {
     id: 'infuse',
     name: 'Infuse',
     description: 'A third-party client for iOS, iPadOS, and tvOS devices.',
